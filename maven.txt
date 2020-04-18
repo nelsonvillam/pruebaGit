@@ -1,0 +1,36 @@
+
+
+cd C:\Users\nv94070\git\owebdev
+set MAVEN_HOME=C:\Users\nv94070\Apps\apache-maven-3.2.3
+set M2_HOME=%MAVEN_HOME%
+set JAVA_HOME=C:\Users\nv94070\Apps\CommonFiles\jdk1.6.0_45-windows-x64\java-windows
+set path=%JAVA_HOME%\bin\;%path%
+set path=%MAVEN_HOME%\bin\;%path%
+
+
+
+cd C:\Users\nv94070\git\owebbatch
+set MAVEN_HOME=C:\Users\nv94070\Apps\apache-maven-3.2.3
+set M2_HOME=%MAVEN_HOME%
+set JAVA_HOME=C:\Users\nv94070\Apps\CommonFiles\jdk1.6.0_45-windows-x64\java-windows
+set path=%JAVA_HOME%\bin\;%path%
+set path=%MAVEN_HOME%\bin\;%path%
+ 
+ 
+ C:\Users\nv94070\git\owebbatch\maven\com\citi\263\owebdev\owebdev\1.0-SNAPSHOT
+ 
+ cd C:\Users\nv94070\git\owebbatch
+set MAVEN_HOME=C:\Users\nv94070\Apps\apache-maven-3.2.3
+set M2_HOME=%MAVEN_HOME%
+set JAVA_HOME=C:\Users\nv94070\Apps\CommonFiles\OpenJDK17
+set path=%JAVA_HOME%\bin\;%path%
+set path=%MAVEN_HOME%\bin\;%path%
+ 
+ 
+cd C:\Users\nv94070\git\owebbatch
+set MAVEN_HOME=C:\Users\nv94070\Apps\apache-maven-3.2.3
+set M2_HOME=%MAVEN_HOME%
+set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_141
+set path=%JAVA_HOME%\bin\;%path%
+set path=%MAVEN_HOME%\bin\;%path%
+ 
