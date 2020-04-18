@@ -26,11 +26,68 @@ mvn package
 Luego de compilar el proyecto ingresar al directorio *target* ejecutar el siguiente comando *java*
 
 ```bash
+java -jar .\desafio-uno-1.0.0.jar nombre_archivo_entrada
+ 
+```
+
+Ejemplo:
+
+```bash
+D:\previred\Desafio_Uno_NV\target>java -jar .\desafio-uno-1.0.0.jar D:\previred\previred.json
+{
+  "id": 6,
+  "fechaCreacion": "1969-03-01",
+  "fechaFin": "1970-01-01",
+  "fechasFaltantes": [
+    "1969-04-01",
+    "1969-06-01",
+    "1969-07-01",
+    "1969-08-01",
+    "1969-10-01",
+    "1969-11-01",
+    "1969-12-01"
+ ]
+}
+
+D:\previred\Desafio_Uno_NV\target>
+```
+La salida anterior se puede redireccionar a un archivo. No se mostrará nada en la consola
+
+```bash
+D:\previred\Desafio_Uno_NV\target>java -jar .\desafio-uno-1.0.0.jar D:\previred\previred.json > salida.json
+```
+
+```bash
 java -jar .\desafio-uno-1.0.0.jar nombre_archivo_entrada nombre_archivo_salida
  
 ```
 
-También se puede ejecutar así
+Aqui el programa crea un archivo de salida y muestra en la consola también el Json generado.
+
+Ejemplo:
 ```bash
-java -jar .\desafio-uno-1.0.0.jar nombre_archivo_entrada > nombre_archivo_salida
- ```
+D:\previred\Desafio_Uno_NV\target>java -jar .\desafio-uno-1.0.0.jar D:\previred\previred.json D:\previred\salida.json
+Archivo de entrada:D:\previred\previred.json
+Archivo de salida:D:\previred\salida.json
+Archivo de entrada leido correctamente
+Se identificaron las fechas faltantes
+El archivo de salida fue generado correctamente.
+
+{
+  "id": 6,
+  "fechaCreacion": "1969-03-01",
+  "fechaFin": "1970-01-01",
+  "fechasFaltantes": [
+    "1969-04-01",
+    "1969-06-01",
+    "1969-07-01",
+    "1969-08-01",
+    "1969-10-01",
+    "1969-11-01",
+    "1969-12-01"
+ ]
+}
+
+D:\previred\Desafio_Uno_NV\target>
+```
+
