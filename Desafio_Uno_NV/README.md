@@ -7,7 +7,7 @@ Es una aplicacion stand alone que recibe como parametro un nombre de archivo con
 opcionalmente recibe un nombre de archivo para guardar la salida;
 si no hay parámetro de archivo de salida entonces la salida se imprime en la consola.
 
-Ver Archivos en archivoEntrada.json(generado http://127.0.0.1:8080/periodos/swagger-ui.html#!/periodos/periodos ) y archivoSalida.json. 
+Ver Archivos archivoEntrada.json(generado http://127.0.0.1:8080/periodos/swagger-ui.html#!/periodos/periodos ) y archivoSalida.json. 
 
 # Detalle de los sistemas
 
