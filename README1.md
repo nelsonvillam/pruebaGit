@@ -17,20 +17,20 @@ Maven 3.2.2
 # Compilar y ejecutar el proyecto
 
 Para compilar el proyecto se requiere Java y Maven instalado.
-Ingresar al directorio *ApiPeriodos* ejecutar el siguiente comando *maven*
+Ingresar al directorio *Desafio_Uno_NV* ejecutar el siguiente comando *maven*
 
 ```bash
 mvn package
 ```
 
-Luego de compilar el proyecto ingresar al directorio *target* ejecutar el siguiente comando *java*
+Luego de compilar el proyecto ingresar al directorio *target* y ejecutar el siguiente comando *java*
 
 ```bash
 java -jar .\desafio-uno-1.0.0.jar nombre_archivo_entrada
  
 ```
 
-Ejemplo:
+Ejemplo: Aquí el archivo de entrada es *D:\previred\previred.json*. Se puede poner la ruta completa.
 
 ```bash
 D:\previred\Desafio_Uno_NV\target>java -jar .\desafio-uno-1.0.0.jar D:\previred\previred.json
