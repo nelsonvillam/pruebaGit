@@ -51,18 +51,21 @@ D:\previred\Desafio_Uno_NV\target>java -jar .\desafio-uno-1.0.0.jar D:\previred\
 
 D:\previred\Desafio_Uno_NV\target>
 ```
-La salida anterior se puede redireccionar a un archivo. No se mostrará nada en la consola
+La salida anterior se puede redireccionar a un archivo. No se mostrará nada en la consola.
 
+Ejemplo:
 ```bash
 D:\previred\Desafio_Uno_NV\target>java -jar .\desafio-uno-1.0.0.jar D:\previred\previred.json > salida.json
 ```
 
+
+También se puede ejecutar así:
 ```bash
 java -jar .\desafio-uno-1.0.0.jar nombre_archivo_entrada nombre_archivo_salida
  
 ```
 
-Aqui el programa crea un archivo de salida y muestra en la consola también el Json generado.
+Aqui el programa crea un archivo de salida y muestra en la consola también el Json generado. Se puede poner la ruta completa.
 
 Ejemplo:
 ```bash
